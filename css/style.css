@@ -1,26 +1,46 @@
-:root{
-    --primary-color     : #FF6C00;
+:root {
+    --primary-color     : #FF6C00; /*основной цвет сайтаиспользуется для кнопок и рамочек*/
     --secondary-color   : #191C26;
 
     --text-primary      : #303030;
-    --text-secondary    : #9DA48D;
+    --text-secondary    : #9da49d;
 }
 
-
-body{
-    font-family: "Open sans", "sans-serif";
+body {
+    font-family: "sans-serif";
 }
 
+.suptitle-secondary{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    color: rgba(157, 164, 189, 0.6);
+}
 
-h2.section-title{
+h2.section-title {
     font-family: 'Raleway';
     font-weight: bold;
-    font-size: 42px
+    font-size: 42px;
     color: var(--text-primary)
 }
 
-
-
-h2.section-title.lighten{
+h2.section-title.lighten {
     color: #fff;
+}
+
+.hero-desription { 
+    color: var(--text-secondary);
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+a.nav-link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+}
+a.nav-link:hover{
+    color: var(--primary-color);
 }
